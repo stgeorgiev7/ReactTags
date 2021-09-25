@@ -1,7 +1,7 @@
 import react from "react";
 
-const Tags = (props) => {
-    const list = props.map(element => {
+const Tags = (tags) => {
+    const list = tags.map(element => {
         return <li key={element} className='tag'>#{element}</li>;
     });
 
