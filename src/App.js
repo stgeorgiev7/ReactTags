@@ -12,7 +12,8 @@ function App() {
       </section>
       <div className="container is-fullhd">
         <div className="notification">
-          {Tags(['boomdotdev', 'task', 'tags', 'react'])}
+          <Tags tags={['boomdotdev', 'task', 'tags', 'react']} />
+          {/* {Tags(['boomdotdev', 'task', 'tags', 'react'])} */}
         </div>
       </div>
     </div>
