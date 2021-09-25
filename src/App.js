@@ -8,7 +8,6 @@ function App() {
         <div className="hero-body">
           <p className="title">A React Task</p>
           <p className="subtitle">by Boom.dev</p>
-          {Tags(["stoqn", "u4i", "react"])}
         </div>
       </section>
       <div className="container is-fullhd">
