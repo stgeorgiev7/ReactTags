@@ -1,7 +1,7 @@
 import react from "react";
 
-const Tags = (tags) => {
-    const arr = tags;
+const Tags = () => {
+    const arr = ['boomdotdev', 'task', 'tags', 'react'];
     
     return (<div className='tags'>
          <title className='tag'>#{arr[0]}</title>
