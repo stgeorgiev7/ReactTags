@@ -1,15 +1,17 @@
 import react from "react";
 
-const Tags = () => {
-    const arr = ['boomdotdev', 'task', 'tags', 'react'];
+const Tags = (props) => {
     
-    return (<ul className='tags'>
-    <li className='tag'>#{arr[0]}</li>
-    <li className='tag'>#{arr[1]}</li>
-    <li className='tag'>#{arr[2]}</li>
-    <li className='tag'>#{arr[3]}</li>
-    </ul>
-);  
+    return(
+        <ul className='tags'>
+            {props.map(element => {
+                return (
+                    <li key={element} className='tag'>#{element}</li>
+                );
+            })}
+        </ul>
+    );
+    
 
 };
 
