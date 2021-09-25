@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 const Tags = (tags) => {
     const list = tags.map(element => {
