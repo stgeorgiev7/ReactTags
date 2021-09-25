@@ -4,21 +4,12 @@ const Tags = () => {
     const arr = ['boomdotdev', 'task', 'tags', 'react'];
     
     return (<ul className='tags'>
-        <li>
-            <title className='tag'>#{arr[0]}</title>
-        </li>
-        <li>
-            <title className='tag'>#{arr[1]}</title>
-        </li>
-        <li>
-            <title className='tag'>#{arr[2]}</title>
-        </li>
-        <li>
-            <title className='tag'>#{arr[3]}</title>
-        </li>
-        </ul>
-   );  
-
+    <li className='tag'>#{arr[0]}</li>
+    <li className='tag'>#{arr[1]}</li>
+    <li className='tag'>#{arr[2]}</li>
+    <li className='tag'>#{arr[3]}</li>
+    </ul>
+);  
 
 };
 
